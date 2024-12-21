@@ -1,0 +1,54 @@
+#cal{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid;
+    padding-bottom: 5%;
+}
+#inputbox{
+    font-weight: bold;
+}
+#ckbx{
+    transform: scaleX(15);
+    opacity: 10;
+}
+ul{
+    list-style: none;
+    position: relative;
+}
+li{
+    list-style:none;
+}
+.ct{
+    display:none;
+    text-align: left;
+}
+label{
+   position: relative;
+   display: block;
+   cursor: pointer;
+}
+button{
+    border: none;
+    height: 40px;
+    width: 70%;
+    font-size: larger;   
+}
+#bt button{
+    border: solid;
+    color:rgb(53, 58, 58);
+    height: 30px;
+    width: 50%;
+    font-weight: bold;
+    padding-top: 3px;
+    background-color: rgb(145, 215, 74);
+}
+#txt{
+    margin-top: 5%;
+}
+input[type=checkbox]:checked ~ .ct {
+    display: block;
+}
